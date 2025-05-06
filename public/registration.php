@@ -23,10 +23,6 @@
             require_once 'code/connect.php';
             session_start();
 
-            if ($_SESSION['id']) {
-                header('Location: reserv.php');
-            }
-
             if (!empty($_POST['name']) and !empty($_POST['password'])) {
                 $name = $_POST['name'];
                 $subname = $_POST['subname'];

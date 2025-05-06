@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost';
+$host = 'MySQL-8.4';
 $user = 'root';
 $pass = '';
 $name = 'island';

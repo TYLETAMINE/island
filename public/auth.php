@@ -16,10 +16,6 @@
         <?php
         require_once 'code/connect.php';
         session_start();
-
-        if ($_SESSION['id']) {
-            header('Location: reserv.php');
-        }
         ?>
 
         <div class="left">
